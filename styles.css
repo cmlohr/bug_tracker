@@ -1,8 +1,133 @@
-.form-con {
-    background-color: #cccccc;
-    /* height:fit-content;
-    width:fit-content; */
-    margin:auto;
-    padding:10px;
-    border-radius:4px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+html {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+h1 {
+  padding: 10px;
+  text-decoration: underline #f9a03f;
+}
+input {
+  border: none;
+  border-radius: 4px;
+}
+ul {
+  padding-left: 0;
+}
+
+li {
+  padding: 10px;
+  list-style-type: none;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
+  padding: 10px 0px 10px 5px;
+}
+#addbtn {
+  font-size: 35px;
+  display: flex;
+}
+.addBtn {
+  border-radius: 3px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
+}
+.addBtn:hover {
+  border-radius: 3px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
+}
+#impbtn{
+  border-radius: 3px;
+  background: #F3A738
+}
+#impbtn:hover {
+  border-radius: 3px;
+background: #BB6E11;
+box-shadow: inset 4px 4px 9px #834D0C, inset -4px -4px 9px #834D0C;
+  color: white;
+}
+.done {
+  border-radius: 3px;
+  background: #4ed088;
+}
+.done:hover {
+  border-radius: 3px;
+  background: green;
+  box-shadow: inset 4px 4px 9px #114026, inset -4px -4px 9px #114026;
+  color: white;
+}
+.remove {
+  border-radius: 3px;
+  background: #f38168;
+}
+.remove:hover {
+  border-radius: 3px;
+  background: #bd2f0f;
+  box-shadow: inset 4px 4px 9px #711c09, inset -4px -4px 9px #711c09;
+  color: white;
+}
+
+li.finished {
+  text-decoration: line-through #e13700;
+  color: lightgrey;
+  border-radius: 3px;
+  background: #ffffff;
+}
+
+li.important {
+  background-color: #F3E37C;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  width: 94%;
+  padding: 10px;
+}
+
+input[type="button"] {
+  font-size: 1.2em;
+  margin: -6px 4px 0px 0px;
+}
+
+#addButton {
+  padding: 10px;
+}
+
+#divabout {
+  
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  font-size: 20px;
+  
+  /*   font-weight: bold; */
+}
+
+#myHeader {
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+}
+
+.aboutbtns {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  background: #625F63;
+  color: white;
+}
+.btm_buttons {
+  width: 100%;
+
 }
