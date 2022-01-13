@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bug Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bug Tracker</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+  <h1 id="myHeader">Bug Tracker</h1>
+  <!-- logo needed -->
 
-<h1 id="myHeader">Bug Tracker</h1>
-<!-- make cool header logo -->
+  <!-- body content div -->
+  <div id="addbtn">
+<input type="text" id="input" placeholder="Add Bug">
+<select id="inputSeverity">
+    <option value="low" id="low">Low</option>
+    <option value="medium" id="medium">Medium</option>
+    <option value="high" id="high">High</option>
+    <input type="text" id="inputAssigned" placeholder="Assigned To">
+    <input type="button" class="addBtn" value=" + " onclick="addBug()">
+    </div>
 
-<div id="addbtn">
-  <input type="text" id="input" placeholder="enter issue...">
-  <select id="inputSeverity">
-  <option id="low" value="low">Low</option>
-  <option id="med" value="med">Med</option>
-  <option id="high" value="high">High</option>
-  <input type="text" id="inputAssigned" placeholder="assigned to">
-  <input type="button" class="addBtn" value=" + " onclick="addBug();">
-  
-</div>
+    <!-- element created by js -->
+    <ul id="tasks">
+    </ul>
 
-<ul id="tasks">
-<!--   <li> -->
-<!--     <input type="button" id="impbtn" class="important" onclick="important(this.parentNode)" value=" ! " />
-    <input type="button" class="done" onclick="markDone(this.parentNode)" value=" ! " />
-    <input type="button" class="remove" id="remove" onclick="remove(this.parentNode)" value=" ! " /> -->
-   
-
-<!--   </li> -->
-</ul>
-
-<!-- <div id="divabout">
-
-</div> -->
-<!-- make better looking buttons -->
-  <!-- <div class="btm_buttons">
-<button class="aboutbtns" onclick="doAbout()">About</button>
-    <button class="aboutbtns"  onclick="clearAbout()">Clear</button></div> -->
-  
-	<script src="app.js"></script>
-  </body>
+    <!-- scripts -->
+<script src="app.js"></script>
+</body>
 </html>
