@@ -1,148 +1,114 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  margin: auto;
-  width: 50%;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
 }
 h1 {
-  padding: 10px;
-  text-decoration: underline #f9a03f;
+    padding: 10px;
+    text-decoration: underline rgb(228, 35, 228);
 }
 input {
-  border: none;
-  border-radius: 4px;
+    border: none;
+    border-radius: 4px;
 }
 ul {
-  padding-left: 0;
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+    border-radius: 3px;
+    background-color: #a09797;
+    box-shadow: 4px 4px 4px #dedede, -4px -4px 4px #dedede;
+    padding: 10px 0px 10px 5px;
 }
 
-li {
-  padding: 10px;
-  list-style-type: none;
-  border-radius: 3px;
-  background: #ffffff;
-  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
-  padding: 10px 0px 10px 5px;
-}
 #addbtn {
-  font-size: 35px;
-  display: flex;
+    font-size: 35px;
+    display: flex;
 }
 .addBtn {
-  border-radius: 3px;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
+    border-radius: 3px;
+    background-color: #7301b6;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px #dedede, -2px -2px 2px #dedede;
 }
 .addBtn:hover {
-  border-radius: 3px;
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 4px 4px 9px #dedede, -4px -4px 9px #ffffff;
+    border-radius: 3px;
+    background-color:#9c14eb;
 }
-#impbtn{
-  border-radius: 3px;
-  background: #F3A738
+
+#impbtn {
+    border-radius: 3px;
+    background-color: #F3A738;
 }
 #impbtn:hover {
-  border-radius: 3px;
-background: #BB6E11;
-box-shadow: inset 4px 4px 9px #834D0C, inset -4px -4px 9px #834D0C;
-  color: white;
+    border-radius: 3px;
+    background-color: #f3c848;
+        box-shadow: inset 4px 4px 9px #834D0C,
+        inset -4px -4px 9px #834D0C;
+        color: #ffffff;
 }
 .done {
-  border-radius: 3px;
-  background: #4ed088;
+    border-radius: 3px;
+    background-color: #4ed088;
 }
 .done:hover {
-  border-radius: 3px;
-  background: green;
-  box-shadow: inset 4px 4px 9px #114026, inset -4px -4px 9px #114026;
-  color: white;
+    border-radius: 3px;
+    background-color: #5ed088;
+    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    color: #ffffff;
 }
 .remove {
-  border-radius: 3px;
-  background: #f38168;
+    border-radius: 3px;
+    background-color: #ff4d4d;
 }
 .remove:hover {
-  border-radius: 3px;
-  background: #bd2f0f;
-  box-shadow: inset 4px 4px 9px #711c09, inset -4px -4px 9px #711c09;
-  color: white;
+    border-radius: 3px;
+    background-color: #ff6d6d;
+    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    color: #ffffff;
 }
-
 li.finished {
-  text-decoration: line-through #e13700;
-  color: lightgrey;
-  border-radius: 3px;
-  background: #ffffff;
+    background-color: #4ed088;
+    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    color: #ffffff;
 }
-
 li.important {
-  background-color: #F3E37C;
+    background-color: #f3c848;
 }
-
-input[type="text"] {
-  font-size: 18px;
-  width: 94%;
-  padding: 10px;
+input[type="text"]{
+    /* font-size: 18px; */
+    width: 94%;
+    padding: 10px;
 }
-
-input[type="button"] {
-  font-size: 1.2em;
-  margin: -6px 4px 0px 0px;
+input[type="text"]:focus {
+border-color: #81189b;
 }
-
 #addButton {
-  padding: 10px;
+    padding: 10px;
 }
-
-#divabout {
-  
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  font-size: 20px;
-  
-  /*   font-weight: bold; */
-}
-
 #myHeader {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
 #input {
-  border-radius: 3px;
-  background: #ffffff;
-  box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
-}
-
-.aboutbtns {
-  border: none;
-  padding: 10px;
-  font-size: 15px;
-  border-radius: 3px;
-  background: #625F63;
-  color: white;
-}
-.btm_buttons {
-  width: 100%;
-
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: inset 4px 4px 9px #81189b, inset -4px -4px 9px #c664da;
 }
 #low_marker {
-  border-radius: 3px;
-  background: #4fb34f;
-  box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+    border-radius: 3px;
+    background-color: #4ed088;
 }
 #med_marker {
     border-radius: 3px;
-    background: #F3A738;
-    box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+    background-color: #f3c848;
 }
 #high_marker {
     border-radius: 3px;
-    background: #f38168;
-    box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+    background-color: #ff4d4d;
 }
