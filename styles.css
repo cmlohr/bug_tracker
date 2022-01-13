@@ -131,3 +131,18 @@ input[type="button"] {
   width: 100%;
 
 }
+#low_marker {
+  border-radius: 3px;
+  background: #4fb34f;
+  box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+}
+#med_marker {
+    border-radius: 3px;
+    background: #F3A738;
+    box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+}
+#high_marker {
+    border-radius: 3px;
+    background: #f38168;
+    box-shadow: inset 4px 4px 9px #dedede, inset -4px -4px 9px #ffffff;
+}
