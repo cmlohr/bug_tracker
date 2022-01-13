@@ -5,7 +5,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 h1 {
     padding: 10px;
@@ -21,7 +21,7 @@ ul {
 li {
     list-style-type: none;
     border-radius: 3px;
-    background-color: #a09797;
+    background-color: #ffffff;
     box-shadow: 4px 4px 4px #dedede, -4px -4px 4px #dedede;
     padding: 10px 0px 10px 5px;
 }
@@ -59,7 +59,7 @@ li {
 .done:hover {
     border-radius: 3px;
     background-color: #5ed088;
-    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    /* box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede; */
     color: #ffffff;
 }
 .remove {
@@ -69,16 +69,18 @@ li {
 .remove:hover {
     border-radius: 3px;
     background-color: #ff6d6d;
-    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    /* box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede; */
     color: #ffffff;
 }
 li.finished {
     background-color: #4ed088;
-    box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede;
+    /* box-shadow: inset 2px 2px 2px #dedede, -2px -2px 2px #dedede; */
     color: #ffffff;
 }
 li.important {
     background-color: #f3c848;
+    font-size: 15px;
+    font-weight: light;
 }
 input[type="text"]{
     /* font-size: 18px; */
@@ -111,4 +113,15 @@ border-color: #81189b;
 #high_marker {
     border-radius: 3px;
     background-color: #ff4d4d;
+}
+.bug_list_item {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: light;
+    /* text-decoration: underline .09em rgb(228, 35, 228); */
+}
+.post{
+  color:rgb(228, 35, 228);
+  font-size: 20px;
 }
